@@ -6,7 +6,7 @@ pipeline {
     stages{
         stage{
            steps{
-             welcome("Baby")
+             echo "Baby"
            }
         }
     }
