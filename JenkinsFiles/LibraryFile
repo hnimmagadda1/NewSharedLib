@@ -1,10 +1,10 @@
 pipeline {
     agent any
     libraries {
-            lib('MySharedLib')
+            lib('NewSharedLib')
         }
     stages{
-        stage{
+        stage("first"){
            steps{
              welcome("Baby")
            }
